@@ -1,0 +1,2 @@
+# DemoNetCoreAddon
+Heroku - Sample Addon
