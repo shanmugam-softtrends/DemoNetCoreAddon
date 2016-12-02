@@ -1,0 +1,18 @@
+{
+  "id": "sftaddondemo",
+  "api": {
+    "config_vars": [ "SFTADDONDEMO_URL" ],
+    "requires": [],
+    "regions": [ "us" ],
+    "password": "4dc28bae389b94adab804765032d55f0",
+    "sso_salt": "6e7d4adb6fdef012af877b4dbab07e0e",
+    "production": {
+      "base_url": "https://demomvc.herokuapp.com/heroku/resources",
+      "sso_url": "https://demomvc.herokuapp.com/sso/login"
+    },
+    "test": {
+      "base_url": "http://localhost:5000/heroku/resources",
+      "sso_url": "http://localhost:5000/sso/login"
+    }
+  }
+}
